@@ -1,4 +1,13 @@
--- Creating DDL for Silver Layer tables with metadata for future use
+/*
+===============================================================================
+DDL Script: Create Silver Tables
+===============================================================================
+Script Purpose:
+    This script creates tables in the 'silver' schema, dropping existing tables 
+    if they already exist.
+	  Run this script to re-define the DDL structure of 'bronze' Tables
+===============================================================================
+*/
 
 -- CRM customer information table
 drop table if exists silver.crm_cust_info;
