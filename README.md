@@ -36,6 +36,10 @@ SQL reports covering:
 
 ![Star Schema](docs/datamodel_startschema.drawio.png)
 
+## 📚 Documentation
+- [Silver Layer Data Catalog](docs/data_catalog_silver.md)
+- [Gold Layer Data Catalog](docs/data_catalog_gold.md)
+
 ## 📂 Folder Structure
 - `datasets/` — Raw CSV source files (ERP & CRM)
 - `scripts/bronze/` — Raw data ingestion scripts
