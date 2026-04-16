@@ -9,11 +9,16 @@ following Medallion Architecture (Bronze → Silver → Gold layers).
 ## 🛠️ Tech Stack
 - **MySQL** — Database & all SQL scripts
 - **MySQL Workbench** — Query writing & DB management
+- **Notion**-Creating a list of tasks
 - **DrawIO** — Architecture diagrams
 - **Git/GitHub** — Version control
 
 > Note: This project was originally designed for SQL Server. 
 > I independently adapted and implemented it in **MySQL**.
+
+## Project Management & Planning
+To organize the project workflow, I used Notion to plan milestones, tasks, and execution steps.
+-[Notion_Plan](https://gaudy-powder-fd7.notion.site/SQL-Data-Warehouse-Project-3424c6e6879f80caa0b5c9ae547f74e6)
 
 ## 🏗️ Architecture — Medallion Layers
 - **Bronze** — Raw ERP & CRM data loaded as-is from CSV files
@@ -39,7 +44,7 @@ SQL reports covering:
 ## 📚 Documentation
 - [Silver Layer Data Catalog](docs/data_catalog_silver.md)
 - [Gold Layer Data Catalog](docs/data_catalog_gold.md)
-
+  
 ## 📂 Folder Structure
 - `datasets/` — Raw CSV source files (ERP & CRM)
 - `scripts/bronze/` — Raw data ingestion scripts
