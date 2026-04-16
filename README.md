@@ -18,7 +18,7 @@ following Medallion Architecture (Bronze → Silver → Gold layers).
 
 ## Project Management & Planning
 To organize the project workflow, I used Notion to plan milestones, tasks, and execution steps.
--[Notion_Plan](https://gaudy-powder-fd7.notion.site/SQL-Data-Warehouse-Project-3424c6e6879f80caa0b5c9ae547f74e6)
+- [Notion_Plan](https://gaudy-powder-fd7.notion.site/SQL-Data-Warehouse-Project-3424c6e6879f80caa0b5c9ae547f74e6)
 
 ## 🏗️ Architecture — Medallion Layers
 - **Bronze** — Raw ERP & CRM data loaded as-is from CSV files
